@@ -8,6 +8,7 @@ namespace DevOpsProjectWebApi.Controllers
         [ActionName("Data")]
         public IHttpActionResult Data()
         {
+
             return Ok("Hey");
         }
 
