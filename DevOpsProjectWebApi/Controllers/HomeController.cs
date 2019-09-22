@@ -5,18 +5,17 @@ namespace DevOpsProjectWebApi.Controllers
     public class HomeController : ApiController
     {            
         [HttpGet]
-        [ActionName("Data")]
-        public IHttpActionResult Data()
+        [ActionName("GetStudentName")]
+        public IHttpActionResult GetStudentName()
         {
-
-            return Ok("Hey");
+            return Ok("Vadim");
         }
 
         [HttpGet]
-        [ActionName("Value")]
-        public IHttpActionResult Value()
+        [ActionName("GetStudentMail")]
+        public IHttpActionResult GetStudentMail()
         {
-            return Ok("Hi");
+            return Ok("godofsaw@gmail.com");
         }
     }
 }
